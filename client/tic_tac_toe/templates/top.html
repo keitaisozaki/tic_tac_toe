@@ -1,0 +1,29 @@
+
+
+<template name="top">
+
+    
+  <div class="navbar navbar-default" role="navigation">
+    <div class="navbar-header">
+    	<a class="navbar-brand" href="#">Tic Tac Toe</a>
+ 
+    </div>
+
+</div>
+
+<div class="container">
+<div class="row">
+
+<div class="col-xs-12">
+{{#if Template.subscriptionsReady}}
+<div class = "startButton">
+        <button class="btn btn-default" type="button" id="start" onclick="location.href='/eachGame/{{getId}}'">START GAME!!</button>
+</div>
+{{/if}}
+
+    
+    </div>
+
+</div>
+</div>
+</template>

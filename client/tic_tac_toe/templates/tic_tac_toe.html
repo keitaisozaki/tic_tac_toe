@@ -1,0 +1,67 @@
+<template name="TicTacToe">
+
+
+<div class="container-fluid">
+<div class="row">
+<div class="col-xs-12">
+
+
+
+{{#if Template.subscriptionsReady}}
+<div class="state">{{waitOrno}}</div>
+
+
+{{#with maingame}}
+<form>
+
+<div class="blocks">
+<div class="top">
+<input type="button" id="b0" class="block-top" value={{circleorX "b0"}}>
+<input type="button" id="b1" class="block-top" value={{circleorX "b1"}}>
+<input type="button" id="b2" class="block-top" value={{circleorX "b2"}}>
+</div>
+
+<div class="middle">
+<input type="button" id="b3" class="block-middle" value={{circleorX "b3"}}>
+<input type="button" id="b4" class="block-middle" value={{circleorX "b4"}}>
+<input type="button" id="b5" class="block-middle" value={{circleorX "b5"}}>
+</div>
+
+<div class="bottom">
+<input type="button" id="b6" class="block-bottom" value={{circleorX "b6"}}>
+<input type="button" id="b7" class="block-bottom" value={{circleorX "b7"}}>
+<input type="button" id="b8" class="block-bottom" value={{circleorX "b8"}}>
+</div>
+
+
+</div>
+
+
+</form>
+{{/with}}
+
+
+
+
+
+	<div class="playerStates">
+	{{whichIsfirst}}
+	</div>
+
+
+<div class = "quit">
+	<a href="/">quit this game</a>
+</div>
+
+
+<div class="winOrlose">
+	{{winOrlose}}
+</div>
+{{/if}}
+
+</div>
+</div>
+</div>
+
+</template>
+

@@ -1,0 +1,61 @@
+
+.top{
+	text-align: center;
+	vertical-align: middle;
+}
+.middle{
+	text-align: center;
+	vertical-align: middle;
+}
+.bottom{
+	text-align: center;
+	vertical-align: middle;
+}
+.block-top{
+
+	text-align: center;
+	vertical-align: middle;
+	font-size: 40px;
+	width:60px;
+	height:60px;
+
+	
+
+	
+}
+.block-middle{
+
+	width:60px;
+	height:60px;
+	font-size: 40px;
+	vertical-align: middle;
+	
+}
+.block-bottom{
+	width:60px;
+	height:60px;
+	font-size: 40px;
+	vertical-align: middle;
+	
+}
+
+.playerStates{
+	text-align: center;
+	margin: 50px;
+}
+
+
+.state{
+	margin: 30px;
+	text-align: center;
+}
+.quit{
+	text-align: center;
+	margin: 30px;
+
+}
+
+.startButton{
+	text-align:  center;
+	margin: 30px;
+}
