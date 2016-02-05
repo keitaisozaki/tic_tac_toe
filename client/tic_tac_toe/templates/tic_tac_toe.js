@@ -154,7 +154,7 @@ else if(b0=="×"&&b1=="×"&&b2=="×"||
 		b0=="×"&&b4=="×"&&b8=="×"||
 		b2=="×"&&b4=="×"&&b6=="×"){
 	if(firstOrsecond==1){
-		alert("You lose!! Fuck you!!");
+		alert("You lose!!");
 	}
 	else{
 		alert("You win");
